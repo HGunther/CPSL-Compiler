@@ -4,9 +4,13 @@ This compiler was written to gain experience with compilers. This compiler takes
 CPSL (the Compiler Project Source Language) is a Pascal-like language. It was developed specifically to be easy to compile and is a great first language for writing compilers. For more information about the CPSL language, see the language's specification at https://github.com/ksundberg/CS5300/blob/master/CPSL.tex or, for the version used when writing this compiler, see the included latex file CPSL.tex.
 
 ## Dependencies
+
 gcc 4.8.1
+
 flex 2.5.4
+
 bison 2.5
+
 cmake
 
 ## How to use
@@ -14,15 +18,18 @@ cmake
 ### Build
 
 To build the compiler, run the commands:
-> cmake CMakeLists.txt
-> make
+
+$ cmake CMakeLists.txt
+
+$ make
 
 This will produce an executable named "cpsl".
 
 ### Input
 
 The compiler must recieve the name of a cpsl file as an inline argument.
-> ./cpsl filename
+
+$ ./cpsl filename
 
 ### Output
 
